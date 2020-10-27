@@ -5,7 +5,8 @@
 ```
   ├─ 비용 고려 
   ├─ 확장성 / 시간
-  └─ Hook or Class
+  ├─ Hook or Class
+  └─ useCallback 필요 여부 체크
 ```
 - [ ] **Basic**
 ```
@@ -20,13 +21,14 @@
   └─ eslint
      └─ eslint-plugin-jsx-a11y : JSX내의 접근성 문제에 대한 즉각적 린팅 피드백 제공
 ```
-- [ ] **Library**
+- [ ] **CSS & Library**
 ```
   직접 구현할 것인가 / 비용 고려하여 선택
   
   ├─ node-sass or style-component
   ├─ CSS Framework or NONE
   │  └── Material or SPECTRE → 요소: 범용성 / 많은 관련 문서 / 가벼움(사이즈) / 구현 가능 여부
+  ├─ naming convention 
   └─ responsive 
      └─ media query / grid / flex  
 ```
@@ -76,7 +78,13 @@
      └─ puppeteer
 ```
 
+- [ ] **git**
+``` 
+  ├─ commit convention
+  └─ git flow or github flow ..
+```
+
 
 ---
 
-<sup>1</sup> [웹 접근성](https://ko.reactjs.org/docs/accessibility.html)
+<sup>1</sup> [web accessibility](https://ko.reactjs.org/docs/accessibility.html)
