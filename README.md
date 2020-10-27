@@ -56,6 +56,10 @@
   ** JS가 동작하지 않는 환경이라면?
  
 ```
+- [ ] **구현**
+```
+  └─ event bubbling and event capture
+```
 
 - [ ] **SEO**
 ```
