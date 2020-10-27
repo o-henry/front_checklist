@@ -39,7 +39,8 @@
 
 - [ ] **Cross Browsing**
 ```
-  ├─ normalize.css or reset.css
+  ├─ normalize.css or reset.css 
+  │  └── https://webdir.tistory.com/455
   └─ webkit .. mozila
 ```
 
