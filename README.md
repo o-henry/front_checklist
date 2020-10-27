@@ -23,6 +23,7 @@
   │     └─ divide business logic and GUI    
   └─ eslint
      └─ eslint-plugin-jsx-a11y : JSX내의 접근성 문제에 대한 즉각적 린팅 피드백 제공
+     └─ https://github.com/simonepizzamiglio/cra-template-typescript-eslint-prettier
 ```
 - [ ] **CSS & Library**
 ```
