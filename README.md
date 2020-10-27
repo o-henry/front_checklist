@@ -127,6 +127,12 @@ public/*
 src/react-app-env.d.ts
 src/serviceWorker.ts
 node_modules/
+
+$ package.json
+scripts: {
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
+    "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx src/ --fix"
+}
 ```
 
 
