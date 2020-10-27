@@ -58,7 +58,9 @@
 ```
 - [ ] **구현**
 ```
+  ├─ handle loader / skeleton UI or loading indicator 
   └─ event bubbling and event capture
+  
 ```
 
 - [ ] **SEO**
