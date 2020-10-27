@@ -14,7 +14,7 @@
 - [ ] **Basic**
 ```
   ├─ TS / JS
-  │  └─ tsconfig / absolute import 
+  │  └─ tsconfig / absolute import ( add baseUrl to tsconfig.json )
   ├─ Flux 
   │  └─ redux or mobx   
   ├─ prettier
