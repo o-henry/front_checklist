@@ -7,6 +7,9 @@
   ├─ 확장성 / 시간
   ├─ Hook or Class
   └─ useCallback 필요 여부 체크
+  
+  CRA with TS
+  └─ `npx create-react-app my-app --template typescript`
 ```
 - [ ] **Basic**
 ```
