@@ -90,6 +90,12 @@
   └─ git flow or github flow ..
 ```
 
+- [ ] **문서화**
+```
+  └─ storybook
+     └─ 비용  
+```
+
 
 ---
 
