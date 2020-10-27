@@ -23,7 +23,7 @@
   │     └─ divide business logic and GUI    
   └─ eslint
      └─ eslint-plugin-jsx-a11y : JSX내의 접근성 문제에 대한 즉각적 린팅 피드백 제공
-     └─ https://github.com/simonepizzamiglio/cra-template-typescript-eslint-prettier
+     └─ https://brouk-devlog.netlify.app/react/create-react-app-with-typescript,-eslint,-prettier/
 ```
 - [ ] **CSS & Library**
 ```
@@ -98,6 +98,35 @@
 ```
   └─ storybook
      └─ 비용  
+```
+
+- [ ] **CRA with Lint**
+```
+CRA로 생성한 프로젝트에 eslint를 입히게 되면 에러가 발생한다. ( 기존 설치된 버전과, manual하게 설치한 버전의 충돌이 일어난다. )
+
+해결
+
+$ yarn add -D eslint eslint-config-airbnb eslint-config-airbnb-typescript eslint-config-prettier eslint-config-react-app eslint-import-resolver-typescript eslint-loader eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks  @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier prettier-eslint prettier-eslint-cli eslint-plugin-prettier
+
+.eslintrc
+{
+  "plugins": ["prettier", "@typescript-eslint"],
+  "extends": ["airbnb-typescript", "react-app", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/no-cycle": 0
+  }
+}
+
+.eslintignore
+build/*
+public/*
+src/react-app-env.d.ts
+src/serviceWorker.ts
+node_modules/
 ```
 
 
