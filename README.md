@@ -3,12 +3,20 @@
 
 - [ ] **CRA** or **Webpack** or **Next.js**
 ```
-  비용 고려 
-  확장성 / 시간
+  ├─ 비용 고려 
+  ├─ 확장성 / 시간
+  └─ Hook or Class
 ```
 - [ ] **Basic**
-``` 
+```
+  ├─ TS / JS
+  │  └─ tsconfig / absolute import 
+  ├─ Flux 
+  │  └─ redux or mobx   
   ├─ prettier
+  ├─ design pattern
+  │  └─ atomic or container
+  │     └─ divide business logic and GUI    
   └─ eslint
      └─ eslint-plugin-jsx-a11y : JSX내의 접근성 문제에 대한 즉각적 린팅 피드백 제공
 ```
@@ -57,6 +65,13 @@
   └─ react → Fragment
      └─ <input id="blahblah" type="text" name="name" />
      
+```
+
+- [ ] **Test**
+```
+  ├─ JEST
+  └─ e2e TEST 
+     └─ puppeteer
 ```
 
 
