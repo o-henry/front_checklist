@@ -25,8 +25,10 @@
   직접 구현할 것인가 / 비용 고려하여 선택
   
   ├─ node-sass or style-component
-  └─ CSS Framework or NONE
-     └── Material or SPECTRE → 요소: 범용성 / 많은 관련 문서 / 가벼움(사이즈) / 구현 가능 여부
+  ├─ CSS Framework or NONE
+  │  └── Material or SPECTRE → 요소: 범용성 / 많은 관련 문서 / 가벼움(사이즈) / 구현 가능 여부
+  └─ responsive 
+     └─ media query / grid / flex  
 ```
 
 - [ ] **Cross Browsing**
