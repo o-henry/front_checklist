@@ -87,4 +87,4 @@
 
 ---
 
-<sup>1</sup> [web accessibility](https://ko.reactjs.org/docs/accessibility.html)
+<sup>1</sup> [웹 접근성](https://ko.reactjs.org/docs/accessibility.html)
