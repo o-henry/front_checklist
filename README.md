@@ -30,8 +30,9 @@
   직접 구현할 것인가 / 비용 고려하여 선택
   
   ├─ node-sass or style-component
-  ├─ CSS Framework or NONE
+  ├─ CSS Framework or Pure css or None
   │  └── Material or SPECTRE → 요소: 범용성 / 많은 관련 문서 / 가벼움(사이즈) / 구현 가능 여부
+  │    └── bulma / spectre가 더 가볍긴 한데 bulma가 더 문서가 많고 별 차이 없다. with node-sass
   ├─ naming convention 
   └─ responsive 
      └─ media query / grid / flex  
