@@ -36,7 +36,12 @@
   └─ responsive 
      └─ media query / grid / flex  
 ```
-
+- [ ] **설계**
+```
+  ├─ 해당 컴포넌트가 전역으로 사용되는가
+  └─ 데이터 유지가 필요한가
+     └─ redux or Mobx or useReducer
+```
 - [ ] **Cross Browsing**
 ```
   ├─ normalize.css or reset.css 
