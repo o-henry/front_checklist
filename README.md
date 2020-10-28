@@ -140,7 +140,20 @@ scripts: {
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
     "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx src/ --fix"
 }
+
+위 설정에서 새로운 라이브러리를 설치하면 린트 에러가 발생한다. ( 노드 모듈과 패키지를 삭제 후 재설치 하라는 에러 설명이 나오거나, 해당 lint config를 찾지 못했다는 에러 등 )
+CRA로 설치할 경우 기본적으로 eslint를 설치하는데, 위와 같이 설치할경우 manual 하게 eslint를 설치하면서 충돌이 난다.
+
+이를 해결하기 위해 manual 하게 설치한 eslint를 package.json에서 제거후 재설치 하면 해결된다. ( 임시 방편 )
+
+그냥 webpack 쓸때 쓰면 맘 편하다.
 ```
+
+- [ ] **Custom Hook**
+```
+  └─ https://usehooks-typescript.com/use-fetch/
+```
+
 
 
 ---
