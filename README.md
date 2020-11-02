@@ -39,6 +39,8 @@
 ```
 - [ ] **설계**
 ```
+  ├─ https://medium.com/@Charles_Stover/optimal-file-structure-for-react-applications-f3e35ad0a145
+  ├─ https://medium.com/hackernoon/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed
   ├─ 해당 컴포넌트가 전역으로 사용되는가
   └─ 데이터 유지가 필요한가
      └─ redux or Mobx or useReducer
@@ -153,6 +155,7 @@ CRA로 설치할 경우 기본적으로 eslint를 설치하는데, 위와 같이
 ```
   └─ https://usehooks-typescript.com/use-fetch/
 ```
+
 
 
 
