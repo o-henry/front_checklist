@@ -94,7 +94,7 @@
 ```
   ├─ JEST
   └─ e2e TEST 
-     └─ puppeteer
+     └─ cypress puppeteer
 ```
 
 - [ ] **git**
