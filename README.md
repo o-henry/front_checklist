@@ -82,7 +82,9 @@
   
   ├─ next.js or helmet
   │             └─ meta tag 동적 제어를 위한 사용
-  ├─ semantic web (https://poiemaweb.com/html5-semantic-web)
+  ├─ semantic web 
+  │  ├─  https://poiemaweb.com/html5-semantic-web
+  │  ├─  https://ideveloper2.tistory.com/164
   │  ├─ [x] : div, span
   │  └─ [o] : table, form, img, header, nav, aside, section, article, footer
   └─ react → Fragment
