@@ -166,3 +166,5 @@ CRA로 설치할 경우 기본적으로 eslint를 설치하는데, 위와 같이
 <sup>1</sup> [웹 접근성](https://ko.reactjs.org/docs/accessibility.html)
 
 <sup>2</sup> [Lint](https://medium.com/@brygrill/create-react-app-with-typescript-eslint-prettier-and-github-actions-f3ce6a571c97)
+
+<sup>3</sup> [UI ENGINERRING](https://overreacted.io/ko/the-elements-of-ui-engineering/)
