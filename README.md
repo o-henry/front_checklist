@@ -168,3 +168,5 @@ CRA로 설치할 경우 기본적으로 eslint를 설치하는데, 위와 같이
 <sup>2</sup> [Lint](https://medium.com/@brygrill/create-react-app-with-typescript-eslint-prettier-and-github-actions-f3ce6a571c97)
 
 <sup>3</sup> [UI ENGINERRING](https://overreacted.io/ko/the-elements-of-ui-engineering/)
+
+<sup>4</sup> [탄력적 컴포넌트](https://blog.rhostem.com/posts/2019-07-14-writing-resilient-components)
