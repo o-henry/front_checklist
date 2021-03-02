@@ -24,6 +24,7 @@
   └─ eslint
      └─ eslint-plugin-jsx-a11y : JSX내의 접근성 문제에 대한 즉각적 린팅 피드백 제공
      └─ https://brouk-devlog.netlify.app/react/create-react-app-with-typescript,-eslint,-prettier/
+     └─ 접근성 : https://marshall-ku.com/web/tips/focus-visible%EB%A1%9C-%EC%A0%91%EA%B7%BC%EC%84%B1-%EB%86%92%EC%9D%B4%EA%B8%B0
 ```
 - [ ] **CSS & Library**
 ```
