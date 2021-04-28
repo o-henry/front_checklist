@@ -98,7 +98,9 @@
   ├─ JEST
   └─ e2e TEST 
      └─ cypress puppeteer
+  └─ 시각적 회귀 테스트
 ```
+* [프론트엔드 테스트 전략](https://ui.toast.com/weekly-pick/ko_20190116#%EC%B6%94%EA%B0%80-%EC%8B%9C%EA%B0%81%EC%A0%81-%ED%9A%8C%EA%B7%80-%ED%85%8C%EC%8A%A4%ED%8A%B8)
 
 - [ ] **git**
 ``` 
@@ -159,6 +161,11 @@ CRA로 설치할 경우 기본적으로 eslint를 설치하는데, 위와 같이
   └─ https://usehooks-typescript.com/use-fetch/
 ```
 
+- [ ] **Custom Hook**
+```
+  └─ 성능
+     └─ colocation
+```
 
 
 
